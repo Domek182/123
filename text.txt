@@ -74,4 +74,25 @@ tracert www.lacnic.net
  26   214 ms   214 ms   225 ms  200.3.12.34
  27   213 ms   213 ms   218 ms  www.lacnic.net [200.3.14.145]
 
+tracert -d www.cisco.com
+
+  1    <1 ms    <1 ms    <1 ms  156.17.43.30
+  2     1 ms     1 ms    <1 ms  156.17.30.126
+  3    <1 ms    <1 ms    <1 ms  156.17.33.4
+  4    <1 ms    <1 ms    <1 ms  10.250.10.1
+  5    <1 ms    <1 ms    <1 ms  10.3.61.25
+  6     4 ms    29 ms     3 ms  10.3.60.162
+  7     1 ms     1 ms    <1 ms  156.17.147.251
+  8     1 ms     1 ms    <1 ms  156.17.252.52
+  9     1 ms     1 ms     1 ms  156.17.252.53
+ 10     1 ms     6 ms     1 ms  156.17.254.101
+ 11     3 ms     3 ms     3 ms  212.191.225.170
+ 12     4 ms     3 ms     7 ms  212.191.126.17
+ 13     4 ms     3 ms     3 ms  83.97.88.121
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16    18 ms    10 ms    10 ms  62.40.98.53
+ 17   389 ms   218 ms   267 ms  91.210.16.221
+ 18     9 ms     9 ms     9 ms  23.75.64.98
+
 
