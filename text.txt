@@ -1,1 +1,77 @@
-123
+h)
+tracert www.cisco.com
+
+  1    <1 ms    <1 ms    <1 ms  syriusz.kssk.pwr.wroc.pl [156.17.43.30]
+  2     1 ms    <1 ms    <1 ms  156.17.30.126
+  3     1 ms    <1 ms    <1 ms  156.17.33.4
+  4    <1 ms    <1 ms    <1 ms  10.250.10.1
+  5    <1 ms    <1 ms    <1 ms  10.3.61.25
+  6     1 ms    <1 ms     1 ms  10.3.60.162
+  7     1 ms     1 ms    <1 ms  do-wcss.pwr.edu.pl [156.17.147.251]
+  8     1 ms     2 ms    <1 ms  156.17.252.52
+  9     1 ms     1 ms     1 ms  156.17.252.53
+ 10     1 ms     1 ms     1 ms  156.17.254.101
+ 11     3 ms     3 ms     3 ms  z-Wroclaw.poznan-gw8.rtr.pionier.gov.pl [212.191.225.170]
+ 12     3 ms     3 ms     3 ms  poznan-gw7.rtr.pionier.gov.pl [212.191.126.17]
+ 13     3 ms     3 ms     3 ms  pionier-ias-geant-gw-1.poz.pl.geant.net [83.97.88.121]
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16    35 ms    23 ms    17 ms  ae2-0.rt1.pra.cz.geant.net [62.40.98.53]
+ 17    18 ms    28 ms    20 ms  nix4.akamai.com [91.210.16.221]
+ 18    10 ms    10 ms    10 ms  a23-75-64-98.deploy.static.akamaitechnologies.com [23.75.64.98]
+
+tracert www.afrinic.net
+
+  1    <1 ms    <1 ms    <1 ms  syriusz.kssk.pwr.wroc.pl [156.17.43.30]
+  2     1 ms    <1 ms    <1 ms  156.17.30.126
+  3    <1 ms    <1 ms    <1 ms  156.17.33.4
+  4    <1 ms    <1 ms    <1 ms  10.250.10.1
+  5     1 ms    <1 ms    <1 ms  10.3.61.25
+  6     1 ms     1 ms     1 ms  10.3.60.162
+  7     1 ms     1 ms    <1 ms  do-wcss.pwr.edu.pl [156.17.147.251]
+  8     1 ms     1 ms    <1 ms  156.17.252.52
+  9     1 ms     1 ms     1 ms  156.17.252.53
+ 10     1 ms     1 ms     1 ms  156.17.254.101
+ 11     1 ms     1 ms     1 ms  156.17.251.0
+ 12     3 ms     3 ms     3 ms  z-Wroclaw-COM.poznan-gw2.rtr.pionier.gov.pl [212.191.239.42]
+ 13    17 ms    16 ms    28 ms  ipv4.de-cix.fra.de.as37271.workonline.africa [80.81.195.27]
+ 14   183 ms   180 ms   234 ms  cr1-umh-et48.wolcomm.net [41.78.188.194]
+ 15   185 ms   193 ms   196 ms  cr1-cpt-et49-1.wolcomm.net [41.78.188.42]
+ 16   197 ms   183 ms   179 ms  cr1-mrs-et44.wolcomm.net [41.78.188.204]
+ 17   179 ms   184 ms   179 ms  cr1-amx-et47.wolcomm.net [41.78.188.206]
+ 18   181 ms   179 ms   179 ms  esr1-isd-cr2-te0-0-27.wolcomm.net [197.157.77.101]
+ 19   179 ms   179 ms   178 ms  197.157.64.195
+ 20   178 ms   179 ms   178 ms  lb.iso.afrinic.net [196.216.3.4]
+
+
+tracert www.lacnic.net
+
+  1    <1 ms    <1 ms    <1 ms  syriusz.kssk.pwr.wroc.pl [156.17.43.30]
+  2     1 ms    <1 ms    <1 ms  156.17.30.126
+  3     1 ms    <1 ms    <1 ms  156.17.33.4
+  4    <1 ms    <1 ms    <1 ms  10.250.10.1
+  5    <1 ms    <1 ms    <1 ms  10.3.61.25
+  6     1 ms     1 ms     1 ms  10.3.60.162
+  7     1 ms     1 ms    <1 ms  do-wcss.pwr.edu.pl [156.17.147.251]
+  8     1 ms     1 ms    <1 ms  156.17.252.52
+  9     1 ms     1 ms     1 ms  156.17.252.53
+ 10     1 ms     1 ms     1 ms  156.17.254.101
+ 11     3 ms     3 ms     3 ms  z-Wroclaw.poznan-gw8.rtr.pionier.gov.pl [212.191.225.170]
+ 12     3 ms     3 ms     3 ms  poznan-gw7.rtr.pionier.gov.pl [212.191.126.17]
+ 13     9 ms    10 ms     8 ms  ae100.edge3.Berlin1.Level3.net [212.162.10.81]
+ 14    31 ms    30 ms    35 ms  ae2.11.edge1.mln1.neo.colt.net [171.75.9.108]
+ 15    26 ms    26 ms    27 ms  ae-7.a01.mlanit02.it.bb.gin.ntt.net [129.250.9.233]
+ 16    26 ms    26 ms    26 ms  ae-4.r22.mlanit02.it.bb.gin.ntt.net [129.250.4.222]
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20   104 ms   105 ms   104 ms  ae-0.r22.nwrknj03.us.bb.gin.ntt.net [129.250.2.34]
+ 21   215 ms   227 ms   215 ms  ae-1.a00.saplbr02.br.bb.gin.ntt.net [129.250.2.13]
+ 22   214 ms   213 ms   213 ms  ae1-1326.gw1.nu.registro.br [200.15.9.95]
+ 23   215 ms   215 ms   215 ms  et-0-1-4-0.core1.jd.registro.br [200.160.0.157]
+ 24   224 ms   214 ms   213 ms  ae0-0.ar3.nu.registro.br [200.160.0.249]
+ 25   215 ms   215 ms   213 ms  ae0-0.gw1.jd.lacnic.net [200.160.0.212]
+ 26   214 ms   214 ms   225 ms  200.3.12.34
+ 27   213 ms   213 ms   218 ms  www.lacnic.net [200.3.14.145]
+
+
